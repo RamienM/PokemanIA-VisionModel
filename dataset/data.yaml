@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 13
+names: ['captura', 'leer', 'main', 'mapa', 'mo', 'no-caminable', 'npc', 'poke-ball', 'puerta', 'recuperarse', 'salto', 'seleccionado', 'texto']
+
+roboflow:
+  workspace: datase-easd8
+  project: my-first-project-hgz3d
+  version: 9
+  license: Private
+  url: https://app.roboflow.com/datase-easd8/my-first-project-hgz3d/9
